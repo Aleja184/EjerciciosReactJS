@@ -2,15 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import ComponentA from './components/container/componentA';
 import { ClockFunction } from './components/pure/clockFunction';
+import ListContacts from './components7-8-9/container/list_contacts';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
         {/* <ComponentA></ComponentA> */}
-        <ClockFunction></ClockFunction>
-      </header>
+        {/* <ClockFunction></ClockFunction> */}
+        <ListContacts></ListContacts>
     </div>
   );
 }
