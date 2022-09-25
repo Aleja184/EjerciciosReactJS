@@ -23,6 +23,11 @@ const ListContacts = () => {
         setContacts(tempContacts);
     }
 
+    /**
+     * 
+     * @Function for delete some contact 
+     */
+
     function deleteContact(contact){
         const index = contacts.indexOf(contact);
         const tempContacts = [...contacts];
@@ -30,6 +35,10 @@ const ListContacts = () => {
         setContacts(tempContacts);
     }
 
+    /**
+     * 
+     * @Function for add contacts 
+     */
     function addContact(contact){
         const tempContacts = [...contacts];
         tempContacts.push(contact);

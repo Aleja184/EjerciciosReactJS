@@ -10,6 +10,11 @@ const NewContact = ({add}) => {
     const lastnameRef = useRef('');
     const emailRef = useRef('');
 
+     /**
+     * 
+     * @Function than allow read the inputs, and send this information to the proop add 
+     */
+
     function addContact(event){
         event.preventDefault();
         const newContact = new Contact(
