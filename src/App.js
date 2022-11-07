@@ -7,6 +7,7 @@ import Rectangle from './components10-11-12/rectangle';
 import TaskFormy from './components13-14-15/taskFormy';
 import { Axios } from 'axios';
 import RandomJokeChuck from './exerciseSessiones19-20-21/components/randomJokeChuck';
+import TaskContainer from './components26-27/TaskContainer';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         {/* <TaskFormy></TaskFormy> */}
 
         {/* Exercise Sessions 19-20-21. Request with Axios */}
-        <RandomJokeChuck></RandomJokeChuck>
+        {/* <RandomJokeChuck></RandomJokeChuck> */}
+        <TaskContainer></TaskContainer>
     </div>
   );
 }
